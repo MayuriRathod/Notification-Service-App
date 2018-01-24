@@ -1,0 +1,3 @@
+<div *ngFor="let url of ImageUrlList;let i=index">
+  	<img src="/assets/images/{{url}}" height="300" width="1000" [hidden]="i != selected" />
+ </div>

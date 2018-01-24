@@ -1,0 +1,36 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #262626;
+}
+
+li {
+	float: left;
+	position: relative;
+}
+
+li.header-left {
+	float: right;
+}
+
+nav li a {
+	display: block;
+	padding:  0 20px;
+	line-height: 60px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav li a:hover {
+	background: #7d7a7a;
+}
+
+.nav-dropdown {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
